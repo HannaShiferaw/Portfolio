@@ -12,7 +12,7 @@ export const PROJECTS = [
     description:
       "A fully responsive React-based front-end clone of the Apple website, focusing on UI/UX fidelity, modern layout techniques, and smooth interactions.",
     tags: ["React"],
-    imageUrl: "../public/images/apple_react.jpeg",
+    imageUrl: "../public/images/apple_react.jpg",
     link: "https://react-apple-kappa.vercel.app/",
     github: "https://github.com/HannaShiferaw/react-apple",
   },
@@ -22,7 +22,7 @@ export const PROJECTS = [
     description:
       "A complete full-stack e-commerce application with user authentication, product listings, shopping cart functionality, and order management. Built with a modern stack and real-time data handling.",
     tags: ["React", "FakeStore API", "Node.js"],
-    imageUrl: "../public/images/amazon.jpeg",
+    imageUrl: "../public/images/amazon.jpg",
     link: "https://frontendamazonclone.netlify.app/",
     github: "https://github.com/HannaShiferaw/Amazon-Frontend",
   },
@@ -32,7 +32,7 @@ export const PROJECTS = [
     description:
       "A React front-end clone of Netflix with dynamic content fetching, responsive design, and smooth navigation.",
     tags: ["React", "Node.js", "TMDB"],
-    imageUrl: "../public/images/netflix.jpeg",
+    imageUrl: "../public/images/netflix.jpg",
     link: "https://hannashiferaw.github.io/Netflix-Clone-2025/",
     github: "https://github.com/HannaShiferaw/Netflix-Clone-2025",
   },
@@ -42,7 +42,7 @@ export const PROJECTS = [
     description:
       "TA Q&A platform for Evangadi students, supporting user registration, posting questions, answering, and real-time interactions. Built to enhance student collaboration and knowledge sharing.",
     tags: ["Node.js", "React", "JavaScript"],
-    imageUrl: "../public/images/forum.jpeg",
+    imageUrl: "../public/images/forum.jpg",
     link: "https://evangadiforum.hannashiferaw.com/",
     github: "https://github.com/HannaShiferaw/Evangadi-Forum",
   },
