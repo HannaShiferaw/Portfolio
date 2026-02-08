@@ -1,0 +1,23 @@
+.footer {
+  padding: 2rem 0;
+  border-top: 1px solid rgba(39, 39, 42, 0.5);
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+.text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #71717a;
+}

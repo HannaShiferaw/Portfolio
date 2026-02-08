@@ -1,0 +1,139 @@
+.section {
+  padding: 6rem 0;
+  border-top: 1px solid rgba(39, 39, 42, 0.5);
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+.header {
+  margin-bottom: 3.5rem;
+}
+
+.label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #71717a;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #fafafa;
+  letter-spacing: -0.025em;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgba(39, 39, 42, 0.8);
+  background: rgba(24, 24, 27, 0.4);
+  padding: 1.5rem 2rem;
+  transition: border-color 0.2s;
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 2rem;
+  }
+}
+
+.card:hover {
+  border-color: rgba(63, 63, 70, 0.6);
+}
+
+.cardLabel {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #71717a;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  color: #a1a1aa;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+}
+
+.skillsHeader {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #71717a;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.skillCard {
+  border-radius: 1rem;
+  border: 1px solid rgba(39, 39, 42, 0.8);
+  background: rgba(24, 24, 27, 0.4);
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.skillCard:hover {
+  border-color: rgba(63, 63, 70, 0.6);
+}
+
+.skillCat {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #a1a1aa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pill {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.5rem;
+  background: rgba(39, 39, 42, 0.9);
+  color: #d4d4d8;
+  border: 1px solid rgba(63, 63, 70, 0.5);
+  transition: all 0.2s;
+}
+
+.pill:hover {
+  background: rgba(63, 63, 70, 0.8);
+  border-color: rgba(82, 82, 91, 0.5);
+}
