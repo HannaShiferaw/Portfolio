@@ -13,8 +13,8 @@ export const PROJECTS = [
       "A fully responsive React-based front-end clone of the Apple website, focusing on UI/UX fidelity, modern layout techniques, and smooth interactions.",
     tags: ["React"],
     imageUrl: "../public/project-images/apple_react.jpeg",
-    link: "#",
-    github: "#",
+    link: "https://reactcloneappl.netlify.app/",
+    github: "https://github.com/HannaShiferaw/react-apple",
   },
   {
     id: 2,
